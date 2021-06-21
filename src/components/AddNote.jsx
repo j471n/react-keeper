@@ -1,6 +1,5 @@
-import { func } from "prop-types";
 import React from "react";
-import { Link, Redirect } from "react-router-dom";
+import { Redirect } from "react-router-dom";
 // import data from "../data";
 import { AiFillPlusCircle } from "react-icons/ai";
 
@@ -39,11 +38,11 @@ const AddNote = () => {
 
     function changeTitle(e) {
         setTitle(e.target.value);
-        e.preventDefault;
+        e.preventDefault();
     }
     function changeContent(e) {
         setContent(e.target.value);
-        e.preventDefault;
+        e.preventDefault();
     }
 
     return (
